@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>audioplayer</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="preloader"></div>
+    <div class="container">
+        <div class="box">
+            <div id="album-img">
+                <img class="cover">
+            </div>
+            <div id="audio-player">
+                <div id="album-info">
+                    <h4 class="title">
+                        </h3>
+                        <h5 class="artist">
+                    </h4>
+                </div>
+                <div id="tracker">
+                    <div id="progressBar">
+                        <span id="progress"></span>
+                    </div>
+                    <span id="duration"></span>
+                </div>
+                <div class="clearfix"></div>
+                <div class="audio-buttons">
+                    <img src="images/icons/previous.png" id="previous">
+                    <img src="images/icons/play.png" id="play">
+                    <img src="images/icons/forward.png" id="next">
+                </div>
+                <div class="list">
+                    <ul id="playlist">
+                        <li song="New Rules" cover="dualipa.jpg" artist="Dua Lipa">New Rules</li>
+                        <li song="Hold on" cover="ananya.jpg" artist="Ananya Birla">Hold On</li>
+                        <li song="Sit Still, Look Pretty" cover="daya.jpeg" artist="Daya">Sit Still, Look Pretty</li>
+                        <li song="New Rules" cover="dualipa.jpg" artist="Dua Lipa">New Rules</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <canvas class="background"></canvas>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js">
+
+
+    </script>
+</body>
+
+</html>
